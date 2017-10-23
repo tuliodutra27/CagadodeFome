@@ -36,8 +36,10 @@ public class AdapterListaInicial extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        Estabelecimento estabelecimento = null;
-        return estabelecimento.getId();
+        long x = 0;
+        x = estabelecimentos.size();
+        x = (x%2)+1;
+        return x;
     }
 
     @Override
