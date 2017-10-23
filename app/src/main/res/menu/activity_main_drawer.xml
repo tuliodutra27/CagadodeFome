@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_main"
+            android:icon="?android:attr/homeAsUpIndicator"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/drawer_pizzas"
+            android:icon="@drawable/pizza_"
+            android:title="Pizzas" />
+        <item
+            android:id="@+id/drawer_lanches"
+            android:icon="@drawable/fast_food"
+            android:title="Lanches" />
+        <item
+            android:id="@+id/drawer_bebidas"
+            android:icon="@drawable/bebida1"
+            android:title="Bebidas" />
+        <item
+            android:id="@+id/drawer_ajuda"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Ajuda" />
+    </group>
+
+</menu>
