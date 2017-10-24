@@ -33,19 +33,19 @@ public class ListaInicialActivity extends AppCompatActivity {
                 Intent intent;
                 switch(position){
                     case 0:
-                        intent = new Intent(getBaseContext(), MainActivity.class);
+                        intent = new Intent(getBaseContext(), ListaPizzariasActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
-                        intent = new Intent(getBaseContext(), MainActivity.class);
+                        intent = new Intent(getBaseContext(), ListaPizzariasActivity.class);
                         startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(getBaseContext(), MainActivity.class);
+                        intent = new Intent(getBaseContext(), ListaPizzariasActivity.class);
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(getBaseContext(), MainActivity.class);
+                        intent = new Intent(getBaseContext(), ListaPizzariasActivity.class);
                         startActivity(intent);
                         break;
                     case 4:

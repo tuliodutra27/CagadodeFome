@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ListaInicialActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ListaPizzariasActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
